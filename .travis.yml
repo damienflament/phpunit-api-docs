@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 language: php
 php:
     -hhvm
+=======
+composer install --prefer-dist
+>>>>>>> 59839f25e4b0c5141f542e4882575388ccd6de85
