@@ -9,7 +9,7 @@ const REPO = 'sebastianbergmann/phpunit';
 const REPO_DIR = __DIR__ . '/phpunit';
 const SRC_DIR = REPO_DIR . '/src';
 const CACHE_DIR = __DIR__ . '/cache/%version%';
-const DOCS_DIR = __DIR__ . '/docs/%version%';
+const BUILD_DIR = __DIR__ . '/gh-pages/%version%';
 
 $iterator = Finder::create()
     ->files()
@@ -25,5 +25,5 @@ return new Sami($iterator, array(
     'remote_repository' => new GitHubRemoteRepository(REPO, REPO_DIR),
     'versions'          => $versions,
     'cache_dir'         => CACHE_DIR,
-    'build_dir'         => DOCS_DIR
+    'build_dir'         => BUILD_DIR
 ));
