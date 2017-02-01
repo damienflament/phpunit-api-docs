@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "phpunit/phpunit": "^5.7",
-        "sami/sami": "^4.0"
+        "sami/sami": "^4.0",
+        "twig/twig": "^2.1"
     },
     "license": "BSD-3-Clause",
     "authors": [
