@@ -31,7 +31,11 @@ $versions = GitVersionCollection::create(REPO_DIR)
 $loader = new Twig_Loader_Filesystem(TEMPLATE_DIR);
 $twig = new Twig_Environment($loader);
 
-$renderedHtml = $twig->render('index.html.twig');
+$stableVersion = $versions->getVersions()[$versions->count() - 1];
+
+$renderedHtml = $twig->render('index.html.twig', [
+    'directory' => $stableVersion->getName()
+]);
 
 
 // Write it to build directory.
