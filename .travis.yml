@@ -22,3 +22,6 @@ script:
     - git clone --branch=gh-pages https://github.com/damienflament/phpunit-api-docs.git gh-pages
     - rm -Rf gh-pages/*
     - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
+    - cd gh-pages
+    - ls -ls
+    - git status
