@@ -12,6 +12,9 @@ php:
 before_install:
     - phpenv config-rm xdebug.ini
 
+install:
+    - git clone https://github.com/sebastianbergmann/phpunit.git phpunit
+
 before_script:
     - composer install --prefer-dist
 
