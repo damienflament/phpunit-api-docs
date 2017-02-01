@@ -21,7 +21,7 @@ $versions = GitVersionCollection::create(REPO_DIR)
     ->add('5.7', '5.7 (current stable)');
 
 return new Sami($iterator, array(
-    'title'             => 'PHPUnit API',
+    'title'             => 'PHPUnit API - The PHP Unit Testing framework.',
     'remote_repository' => new GitHubRemoteRepository(REPO, REPO_DIR),
     'versions'          => $versions,
     'cache_dir'         => CACHE_DIR,
