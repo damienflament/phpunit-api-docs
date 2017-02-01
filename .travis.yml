@@ -19,4 +19,4 @@ before_script:
     - composer install --prefer-dist
 
 script:
-    - vendor/bin/sami.php update phpunit.php
+    - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
