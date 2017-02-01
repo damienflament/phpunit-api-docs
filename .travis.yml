@@ -1,9 +1,5 @@
 sudo: false
 
-env:
-  global:
-    secure: K/+gqtm+aIQOf+xNrfGkoYkBlyF61vGe2DDQilAQHV0Ki8o/BG1ppx+lIkVjAA7Atgbul0egmlhi85rlcXC40hUBykOZYJqapKHCOYTMa6oi7Lo0myLRtdqQ4OXyJZehfsocI7NA8soof8umGOfSNObD/rjPXW98bo7Wn4uJxS630GVpE504r9gAlQ6fS1G1kZx/Cw+2gvj6jsOqdNEKSlUVL1iF/wa4Q4hovF+HeuQEn/WOeKv9UMsmSB0sNcsyVNTFKch2be2R/EpvL6WxAt6xoRIG4sR5glUHCvIcusi9lmr16/TCJL11+r4fxWVMcHdr4nl0a3hB7m0BluLemRhItjIvveOGNopC88LLGW4RuJ8H9Nj1l0IpI4XdIrrbe8o0FrxqViOAE3MI/B0l5GlZAdR+a0aXN7TnMuVX01dXNQCv1GX9emO+kMhst2lyV69mPqqLLHzcE3xFps1dL3EEORbfrtlwEmxHMWcr/CIhhiXhNUUOTsXKze4wrOB2FE2uxiFXaCDYdJhOBlkeX+gJiUJqfaHH7lE4033Zl4XBk6Sq7QrSFJgn6KPVRAA+MI857iyBLgAVNkkWf/RX3gW/ymHZbhVYLPQYNGTN9YA0nPfk8fAMwFgXORm+ZBoliPJRFw+ov3Kq3iS4RDAId01MYrWwVHF1DjDe1mzbOao=
-
 branches:
     only:
         - master

@@ -3,7 +3,6 @@
     "description": "PHPUnit API documentation.",
     "type": "project",
     "require": {
-        "phpunit/phpunit": "^5.7",
         "sami/sami": "^4.0",
         "twig/twig": "^2.1",
         "symfony/filesystem": "^3.2"
