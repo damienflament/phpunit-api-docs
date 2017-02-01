@@ -23,3 +23,5 @@ before_script:
 script:
     - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
     - cd gh-pages
+    - git add *
+    - git commit -m 'Automatic update by Travis.'
