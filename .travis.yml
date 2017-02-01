@@ -11,6 +11,8 @@ php:
 
 before_install:
     - phpenv config-rm xdebug.ini
+    - git config --global user.email 'damien.flament@gmx.com'
+    - git config --global user.name  'Damien Flament'
 
 install:
     - git clone https://github.com/sebastianbergmann/phpunit.git phpunit
