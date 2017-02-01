@@ -14,12 +14,12 @@ before_install:
 
 install:
     - git clone https://github.com/sebastianbergmann/phpunit.git phpunit
+    - git clone --branch=gh-pages https://github.com/damienflament/phpunit-api-docs.git gh-pages
+    - rm -Rf gh-pages/*
 
 before_script:
     - composer install --prefer-dist
 
 script:
-    - git clone --branch=gh-pages https://github.com/damienflament/phpunit-api-docs.git gh-pages
-    - rm -Rf gh-pages/*
     - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
     - cd gh-pages
