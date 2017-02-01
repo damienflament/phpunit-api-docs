@@ -11,15 +11,18 @@ const SRC_DIR   = REPO_DIR . '/src';
 const CACHE_DIR = __DIR__ . '/cache/%version%';
 const BUILD_DIR = __DIR__ . '/gh-pages/%version%';
 
+// Documentation is generated for PHPUnit source files.
 $iterator = Finder::create()
     ->files()
     ->name('*.php')
     ->in(SRC_DIR);
 
+// Both old and current stable versions are targeted.
 $versions = GitVersionCollection::create(REPO_DIR)
     ->add('4.8', '4.8 (old stable)')
     ->add('5.7', '5.7 (current stable)');
 
+// Return Sami configuration
 return new Sami($iterator, array(
     'title'               => 'PHPUnit API - The PHP Unit Testing framework.',
     'remote_repository'   => new GitHubRemoteRepository(REPO, REPO_DIR),
