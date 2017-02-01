@@ -2,8 +2,10 @@ sudo: false
 
 language: php
 
-before_script:
+before_install:
     - phpenv config-rm xdebug.ini
+
+before_script:
     - composer install --prefer-dist
 
 script: true
