@@ -26,7 +26,7 @@ install:
     - composer install --prefer-dist
 
 before_script:
-    - vendor/bin/sapi.php --version
+    - vendor/bin/sami.php --version
 
 script:
     - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
