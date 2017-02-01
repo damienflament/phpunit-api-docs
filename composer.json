@@ -5,7 +5,8 @@
     "require": {
         "phpunit/phpunit": "^5.7",
         "sami/sami": "^4.0",
-        "twig/twig": "^2.1"
+        "twig/twig": "^2.1",
+        "symfony/filesystem": "^3.2"
     },
     "license": "BSD-3-Clause",
     "authors": [
