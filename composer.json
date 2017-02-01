@@ -1,0 +1,17 @@
+{
+    "name": "damienflament/phpunit-api-docs",
+    "description": "PHPUnit API documentation.",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^5.7",
+        "sami/sami": "^4.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damien Flament",
+            "email": "damien.flament@gmx.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
