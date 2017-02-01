@@ -18,4 +18,5 @@ install:
 before_script:
     - composer install --prefer-dist
 
-script: true
+script:
+    - vendor/bin/sami.php update phpunit.php
