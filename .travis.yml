@@ -32,3 +32,4 @@ script:
     - cd gh-pages
     - git add *
     - git commit -m 'Automatic update by Travis.'
+    - git push
