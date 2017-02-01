@@ -23,5 +23,3 @@ script:
     - rm -Rf gh-pages/*
     - vendor/bin/sami.php update phpunit.php --no-interaction --quiet
     - cd gh-pages
-    - ls -ls
-    - git status
