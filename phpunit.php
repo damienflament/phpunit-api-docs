@@ -50,5 +50,6 @@ return new Sami($iterator, array(
     'remote_repository'   => new GitHubRemoteRepository(REPO, REPO_DIR),
     'versions'            => $versions,
     'cache_dir'           => CACHE_DIR . '/%version%',
-    'build_dir'           => BUILD_DIR . '/%version%'
+    'build_dir'           => BUILD_DIR . '/%version%',
+    'simulate_namespaces' => true
 ));
