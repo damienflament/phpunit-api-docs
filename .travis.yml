@@ -36,6 +36,6 @@ script:
 after_script:
     # Commit generated documentation to gh-pages branch
     - cd gh-pages
-    - git add *
+    - git add --all
     - git commit -m 'Automatic update by Travis. [skip ci]'
     - git push
