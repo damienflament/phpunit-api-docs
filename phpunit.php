@@ -23,7 +23,7 @@ $iterator = Finder::create()
 
 // Both old and current stable versions are targeted.
 $versions = GitVersionCollection::create(REPO_DIR)
-    ->add('4.8', '4.8 (old stable)')
+    ->add('5.7', '5.7 (old stable)')
     ->add('6.0', '6.0 (current stable)');
 
 
