@@ -7,7 +7,7 @@ used to generate it.
 The [PHPUnit][phpunit] source code is parsed by [Sami][sami] and the generated
 HTML are served by the GitHub Pages.
 
-[Travis][travis] is used to automate te process.
+[Travis][travis] is used to automate the process.
 
 ---
 
